@@ -17,3 +17,11 @@ Most functions return a `Result` enumeration to indicate success or failure and 
 Macros are called using `macroname!` where the `!` differentiates it from a normal method call
 
 The standard library does not support random number generation but there is a `rand` crate available
+
+It’s possible to build documentation for all installed dependencies using `cargo doc --open`
+
+Normal member methods are referenced by `.`
+
+You can shadow previous variables by defining them again
+
+Variable types can be assigned using annotations which follow a colon `let guess: u32` this will create an immutable variable named guess with annotation indicating type is a 32-bit unsigned integer
