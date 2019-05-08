@@ -25,3 +25,5 @@ Normal member methods are referenced by `.`
 You can shadow previous variables by defining them again
 
 Variable types can be assigned using annotations which follow a colon `let guess: u32` this will create an immutable variable named guess with annotation indicating type is a 32-bit unsigned integer
+
+The docs seem to prefer snake_case for source file names, variables and methods
